@@ -1,0 +1,31 @@
+{
+	"workbench.colorTheme": "poimandres",
+	"workbench.iconTheme": "symbols",
+	"workbench.editor.enablePreview": false,
+	"workbench.editor.openPositioning": "last",
+
+	"prettier.tabWidth": 3,
+	"prettier.useTabs": true,
+	"prettier.printWidth": 120,
+	"prettier.singleQuote": true,
+
+	"symbols.hidesExplorerArrows": true,
+
+	"explorer.compactFolders": false,
+
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.formatOnSave": true,
+	"editor.quickSuggestions": { "strings": "on" },
+	"editor.tabSize": 3,
+
+	"svelte.enable-ts-plugin": true,
+	"svelte.plugin.svelte.format.config.printWidth": 120,
+	"svelte.plugin.svelte.format.config.singleQuote": true,
+	"svelte.plugin.svelte.format.config.svelteSortOrder": "options-scripts-styles-markup",
+	"[svelte]": { "editor.defaultFormatter": "svelte.svelte-vscode" },
+
+	"files.autoSave": "afterDelay",
+	"files.associations": { "*.css": "tailwindcss" },
+
+	"terminal.integrated.defaultProfile.windows": "Git Bash"
+}
